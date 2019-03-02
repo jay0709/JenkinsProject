@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: QO-31762)
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 1, Skipped: 4, Time elapsed: 110.358 s <<< FAILURE! - in QO-31762)
+And Verify "No Matching Templates Found" is displayed(Scenario: Verify show No Matching Templates Found tile (QO-31762))  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //android.view.View[@text= 'No Matching Templates.']' (tried for 60 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Mac-G8LWG3QK', ip: 'fe80:0:0:0:d5:a644:bb78:cdbf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_141'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {androidDeviceSocket: com.owners.agentinteg_devto..., appActivity: .MainActivity, appPackage: com.owners.agentinteg, autoWebview: false, automationName: UiAutomator2, chromeBundleId: com.android.chrome, databaseEnabled: false, desired: {androidDeviceSocket: com.owners.agentinteg_devto..., appActivity: .MainActivity, appPackage: com.owners.agentinteg, autoWebview: false, automationName: UiAutomator2, chromeBundleId: com.android.chrome, deviceName: Owners A8+, instrumentApp: true, platformName: android, platformVersion: 8.0, setWebContentsDebuggingEnabled: true, udid: 5200d930ec16c45d}, deviceApiLevel: 26, deviceManufacturer: samsung, deviceModel: SM-A730F, deviceName: 5200d930ec16c45d, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 5200d930ec16c45d, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.0.0, setWebContentsDebuggingEnabled: true, statBarHeight: 63, takesScreenshot: true, udid: 5200d930ec16c45d, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5445d071-b4e4-43c7-97cf-a5b89c9c787f
+*** Element info: {Using=xpath, value=//android.view.View[@text= 'No Matching Templates.']}
+

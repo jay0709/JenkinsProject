@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Driver.Runner" time="0.002" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/test-classes:/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/classes:/Users/Shared/Jenkins/.m2/repository/com/browserstack/automate-testassist/1.0.0-SNAPSHOT/automate-testassist-1.0.0-SNAPSHOT.jar:/Users/Shared/Jenkins/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar:/Users/Shared/Jenkins/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/Shared/Jenkins/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Shared/Jenkins/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Shared/Jenkins/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Shared/Jenkins/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Shared/Jenkins/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Shared/Jenkins/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/Shared/Jenkins/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/Shared/Jenkins/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/Users/Shared/Jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/Shared/Jenkins/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Shared/Jenkins/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Shared/Jenkins/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Shared/Jenkins/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/Shared/Jenkins/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Shared/Jenkins/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Shared/Jenkins/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/Shared/Jenkins/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/Shared/Jenkins/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/Shared/Jenkins/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/Shared/Jenkins/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/Shared/Jenkins/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/Shared/Jenkins/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Shared/Jenkins/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Shared/Jenkins/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/Shared/Jenkins/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/Shared/Jenkins/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/Shared/Jenkins/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/Shared/Jenkins/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Shared/Jenkins/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/Shared/Jenkins/.m2/repository/com/vimalselvam/cucumber-extentsreport/3.0.2/cucumber-extentsreport-3.0.2.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/surefire/surefirebooter862204083576372294.jar /Users/Shared/Jenkins/Home/workspace/SampleMaven/target/surefire 2019-03-01T15-33-18_737-jvmRun1 surefire5799579918036371290tmp surefire_0409665038837308984tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/test-classes:/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/classes:/Users/Shared/Jenkins/.m2/repository/com/browserstack/automate-testassist/1.0.0-SNAPSHOT/automate-testassist-1.0.0-SNAPSHOT.jar:/Users/Shared/Jenkins/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-plugin-api/3.3.9/maven-plugin-api-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-model/3.3.9/maven-model-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/maven-artifact/3.3.9/maven-artifact-3.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.2/org.eclipse.sisu.plexus-0.3.2.jar:/Users/Shared/Jenkins/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/Users/Shared/Jenkins/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/Shared/Jenkins/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Shared/Jenkins/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.2/org.eclipse.sisu.inject-0.3.2.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/cucumber-testng/1.2.5/cucumber-testng-1.2.5.jar:/Users/Shared/Jenkins/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Shared/Jenkins/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Shared/Jenkins/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Shared/Jenkins/.m2/repository/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar:/Users/Shared/Jenkins/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/Shared/Jenkins/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/Shared/Jenkins/.m2/repository/junit/junit-dep/4.8.2/junit-dep-4.8.2.jar:/Users/Shared/Jenkins/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/Shared/Jenkins/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-java/3.12.0/selenium-java-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.12.0/selenium-chrome-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.12.0/selenium-edge-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.12.0/selenium-firefox-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.12.0/selenium-ie-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.12.0/selenium-opera-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.12.0/selenium-safari-driver-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Shared/Jenkins/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Shared/Jenkins/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Shared/Jenkins/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/Shared/Jenkins/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Shared/Jenkins/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Shared/Jenkins/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Shared/Jenkins/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Shared/Jenkins/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/Shared/Jenkins/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/Shared/Jenkins/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/Shared/Jenkins/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/Shared/Jenkins/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/Shared/Jenkins/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/Shared/Jenkins/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/Shared/Jenkins/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/Shared/Jenkins/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/Shared/Jenkins/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/Shared/Jenkins/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/Shared/Jenkins/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/Shared/Jenkins/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/Shared/Jenkins/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/Shared/Jenkins/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Shared/Jenkins/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/Shared/Jenkins/.m2/repository/com/vimalselvam/cucumber-extentsreport/3.0.2/cucumber-extentsreport-3.0.2.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/Shared/Jenkins/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Shared/Jenkins"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven/target/surefire/surefirebooter862204083576372294.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.3"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Shared/Jenkins/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mq/3qvxrf4n5fnb9v3mt0lqv4xw00008f/T/"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="user.dir" value="/Users/Shared/Jenkins/Home/workspace/SampleMaven"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.ext.dirs" value="/Users/Shared/Jenkins/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="initializationError" classname="Driver.Runner" time="0.002">
+    <error message="Error parsing feature file /Users/Shared/Jenkins/Home/workspace/SampleMaven/src/test/resources/features/EmailSmsTemplate_TestScenarios.feature" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Error parsing feature file /Users/Shared/Jenkins/Home/workspace/SampleMaven/src/test/resources/features/EmailSmsTemplate_TestScenarios.feature
+Caused by: gherkin.lexer.LexingError: 
+Lexing error on line 7: '//When User clicks on "Skip" option
+    //And User clicks on "Sign in" option
+    //And User selects the "Automation Qeagent" agent and logins
+    And Verify "Home page" is displayed
+    And User clicks on "Hamburger Menu" button
+    And User clicks on "Email_SMS template" option
+
+  Scenario: Verify Blank tile should be the first template (QO-31751),(QO-31752),(QO-31754),(QO-31758)
+    And User clicks on "+ADD NEW" option
+    And Verify "Add New title" is displayed
+    And Verify "Search Bar" is displayed
+    And Verify "Blank Email Document" is displayed
+    And User clicks on "Blank Email Document" option
+    And Verify "Edit Template" is displayed
+    And User closes the template
+    And Scroll to text "SMS Templates"
+    And Verify "Blank SMS Document" is displayed
+    And User clicks on "Blank SMS Document" option
+    And Verify "Edit Template" is displayed
+    And User closes the template
+    And User closes the app
+
+  Scenario: Verify all pre-made email templates are visible (QO-31755),(QO-31757),(QO-31757)
+    And All pre-made templates are visible and clicking on it should open respective pages
+      | Buyer - Thanks for meeting |
+      | Closing - Buyer Thanks     |
+      | Closing - Follow Up        |
+      | Recommend Buyer App        |
+      | Tour Homes This Weekend    |
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed  
+    Then User closes the app
+    
+ Scenario: Verify order of display Pre-Made Email Templates, Email Templates, Pre-Made SMS Templates and SMS Templates (QO-31759)
+   And Verify order of display in below sequence
+   |Pre-Made Email Templates |
+   |Email Templates          |
+   |Pre - Made SMS Templates |
+   |SMS Templates            |
+   Then User closes the app
+   
+  Scenario: Validate  full preview and hide preview (QO-31831)
+   And User clicks on "Show Full Preview" option
+   And Verify "Email Template" is "Expanded"
+   And User clicks on "Hide Full Preview" option
+   And Verify "Email Template" is "Collapsed"
+   Then User closes the app
+ 
+   Scenario: Verify Pre-Made SMS templates should be available (QO-31759)
+    And User clicks on "+ADD NEW" option
+    And User enters "Recommend Buyer App"
+    And Verify "Recommend Buyer App Email Template" is displayed
+    And User clicks on "Recommend Buyer App SMS Template" option
+    And Verify "Edit Recommend SMS Template" is displayed
+    And User closes the template
+    And User closes the app
+
+  Scenario: Verify Changed templates should be reflected for EMAIL template (QO-31760)
+    And User enters "Pre_made Email Template Name"
+    And User clicks on "Edit template" button
+    And User enters "New Email Template Name"
+    And User saves the template
+    And Verify "New EMail Template Name" is displayed
+    And User clicks on "Edit template" button
+    And User deletes the template
+    And User closes the app
+
+  Scenario: Verify Email/SMS contents should be same as on the Templates page (QO-31759),(QO-31760),(QO-31759),9QO-31761)
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed
+    And user clicks on "Back" button
+    And User enters "Pre_made SMS Template Name"
+    And Verify "Pre_made SMS Template Name" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Pre_made SMS Template Name"
+    And Verify "Pre_made SMS Template Name" is displayed
+    And User closes the app
+
+  Scenario: Verify show No Matching Templates Found tile (QO-31762)
+    And User enters "Random template name"
+    And Verify "No Matching Templates Found" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Random template name"
+    And Verify "No Matching Templates Found" is displayed
+    And User closes the app
+
+%_FEATURE_END_%'. See http://wiki.github.com/cucumber/gherkin/lexingerror for more information.
+</error>
+  </testcase>
+</testsuite>

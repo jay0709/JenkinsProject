@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+Test set: QO-31759),9QO-31761)
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 0, Errors: 1, Skipped: 9, Time elapsed: 202.397 s <<< FAILURE! - in QO-31759),9QO-31761)
+And User clicks on "+ADD NEW" option(Scenario: Verify Email/SMS contents should be same as on the Templates page (QO-31759),(QO-31760),(QO-31759),9QO-31761))  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+io.appium.uiautomator2.common.exceptions.StaleElementReferenceException: The element 'By.xpath: //android.view.View[@text='ADD NEW']' does not exist in DOM anymore
+	at io.appium.uiautomator2.model.KnownElements.getElementFromCache(KnownElements.java:85)
+	at io.appium.uiautomator2.handler.Click.safeHandle(Click.java:33)
+	at io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:36)
+	at io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:250)
+	at io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:241)
+	at io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:44)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:435)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:250)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1294)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:911)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:611)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:466)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:764)
+
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Mac-G8LWG3QK', ip: 'fe80:0:0:0:d5:a644:bb78:cdbf%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '1.8.0_141'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {androidDeviceSocket: com.owners.agentinteg_devto..., appActivity: .MainActivity, appPackage: com.owners.agentinteg, autoWebview: false, automationName: UiAutomator2, chromeBundleId: com.android.chrome, databaseEnabled: false, desired: {androidDeviceSocket: com.owners.agentinteg_devto..., appActivity: .MainActivity, appPackage: com.owners.agentinteg, autoWebview: false, automationName: UiAutomator2, chromeBundleId: com.android.chrome, deviceName: Owners A8+, instrumentApp: true, platformName: android, platformVersion: 8.0, setWebContentsDebuggingEnabled: true, udid: 5200d930ec16c45d}, deviceApiLevel: 26, deviceManufacturer: samsung, deviceModel: SM-A730F, deviceName: 5200d930ec16c45d, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 5200d930ec16c45d, instrumentApp: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 8.0.0, setWebContentsDebuggingEnabled: true, statBarHeight: 63, takesScreenshot: true, udid: 5200d930ec16c45d, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c492ad46-a9c9-435a-a871-bdd82bbd750e
+
