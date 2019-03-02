@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-selenium-cucumber-java-maven-
+selenium-cucumber-java-maven
 =================
 
 selenium-cucumber : Automation Testing Using Java
