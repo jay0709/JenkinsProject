@@ -1,9 +1,0 @@
-Driver/BaseTest.class
-PageObjects/CommonActionsConditions.class
-ObjectRepository/iosSaveSearchPage.class
-Driver/PropertyData.class
-Driver/Runner.class
-ObjectRepository/LoginPage_OR.class
-Driver/ConfigFileReader.class
-Driver/desiredCapabilities.class
-Driver/stepDefs/LoginStepDefinations.class
