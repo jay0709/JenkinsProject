@@ -1,0 +1,8 @@
+Feature: Agent App Login
+
+Scenario: Login to Agent App
+
+Given Launch the agent app
+When User clicks on "SignIn" Button
+And Verifys Home button
+Then User closes the app

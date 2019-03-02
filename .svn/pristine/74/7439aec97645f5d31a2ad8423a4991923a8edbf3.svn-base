@@ -1,0 +1,94 @@
+#@Author - chakraja
+@Regression
+Feature: Add Template Test Scenarios
+
+  Background: 
+    Given Launch the agent app
+    When User clicks on "Skip" option
+    And User clicks on "Sign in" option
+    And User selects the "Gravitas Test3" agent and logins
+    And Verify "Home page" is displayed
+    And User clicks on "Hamburger Menu" button
+    And User clicks on "Email_SMS template" option
+
+  Scenario: Verify Blank tile should be the first template (QO-31751),(QO-31752),(QO-31754),(QO-31758)
+    And User clicks on "+ADD NEW" option
+    And Verify "Add New title" is displayed
+    And Verify "Search Bar" is displayed
+    And Verify "Blank Email Document" is displayed
+    And User clicks on "Blank Email Document" option
+    And Verify "Edit Template" is displayed
+    And User closes the template
+    And Scroll to text "SMS Templates"
+    And Verify "Blank SMS Document" is displayed
+    And User clicks on "Blank SMS Document" option
+    And Verify "Edit Template" is displayed
+    And User closes the template
+    And User closes the app
+
+  Scenario: Verify all pre-made email templates are visible (QO-31755),(QO-31757),(QO-31757)
+    And All pre-made templates are visible and clicking on it should open respective pages
+      | Buyer - Thanks for meeting |
+      | Closing - Buyer Thanks     |
+      | Closing - Follow Up        |
+      | Recommend Buyer App        |
+      | Tour Homes This Weekend    |
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed  
+    Then User closes the app
+    
+ Scenario: Verify order of display Pre-Made Email Templates, Email Templates, Pre-Made SMS Templates and SMS Templates (QO-31759)
+   And Verify order of display in below sequence
+   |Pre-Made Email Templates |
+   |Email Templates          |
+   |Pre - Made SMS Templates |
+   |SMS Templates            |
+   Then User closes the app
+   
+  Scenario: Validate  full preview and hide preview (QO-31831)
+   And User clicks on "Show Full Preview" option
+   And Verify "Email Template" is "Expanded"
+   And User clicks on "Hide Full Preview" option
+   And Verify "Email Template" is "Collapsed"
+   Then User closes the app
+ 
+   Scenario: Verify Pre-Made SMS templates should be available (QO-31759)
+    And User clicks on "+ADD NEW" option
+    And User enters "Recommend Buyer App"
+    And Verify "Recommend Buyer App Email Template" is displayed
+    And User clicks on "Recommend Buyer App SMS Template" option
+    And Verify "Edit Recommend SMS Template" is displayed
+    And User closes the template
+    And User closes the app
+
+  Scenario: Verify Changed templates should be reflected for EMAIL template (QO-31760)
+    And User enters "Pre_made Email Template Name"
+    And User clicks on "Edit template" button
+    And User enters "New Email Template Name"
+    And User saves the template
+    And Verify "New EMail Template Name" is displayed
+    And User clicks on "Edit template" button
+    And User deletes the template
+    And User closes the app
+
+  Scenario: Verify Email/SMS contents should be same as on the Templates page (QO-31759),(QO-31760),(QO-31759),9QO-31761)
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Pre_made Email Template Name"
+    And Verify "Pre_made Email Template Name" is displayed
+    And user clicks on "Back" button
+    And User enters "Pre_made SMS Template Name"
+    And Verify "Pre_made SMS Template Name" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Pre_made SMS Template Name"
+    And Verify "Pre_made SMS Template Name" is displayed
+    And User closes the app
+
+  Scenario: Verify show No Matching Templates Found tile (QO-31762)
+    And User enters "Random template name"
+    And Verify "No Matching Templates Found" is displayed
+    And User clicks on "+ADD NEW" option
+    And User enters "Random template name"
+    And Verify "No Matching Templates Found" is displayed
+    And User closes the app

@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Login to Agent App
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 3, Skipped: 4, Time elapsed: 0.589 s <<< FAILURE! - in Scenario: Login to Agent App
+Scenario: Login to Agent App  Time elapsed: 0.563 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'ip-10-207-203-237.ec2.internal', ip: '10.207.203.237', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: IOSDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: 'fc1650f37d318a2b3c0399db133ff76209c5a6bc'
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'ip-10-207-203-237.ec2.internal', ip: '10.207.203.237', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: IOSDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Unknown device or simulator UDID: 'fc1650f37d318a2b3c0399db133ff76209c5a6bc'
+    at getResponseForW3CError (/Applications/apm/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
+    at asyncHandler (/Applications/apm/Appium.app/Contents/Resources/app/node_modules/appium-base-driver/lib/protocol/protocol.js:450:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+Scenario: Login to Agent App  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Login to Agent App  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
