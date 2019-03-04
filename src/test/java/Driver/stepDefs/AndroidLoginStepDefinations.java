@@ -57,10 +57,10 @@ public class AndroidLoginStepDefinations extends desiredCapabilities {
 			Thread.sleep(5000);
 		} else if (Option.equals("Skip")) {
 			try {
-			wait.until(ExpectedConditions.visibilityOf(AndroidLoginPage_OR.Allow));
-			AndroidLoginPage_OR.Allow.click();
 			wait.until(ExpectedConditions.elementToBeClickable(AndroidLoginPage_OR.SkipLink));
 			AndroidLoginPage_OR.SkipLink.click();
+			wait.until(ExpectedConditions.visibilityOf(AndroidLoginPage_OR.Allow));
+			AndroidLoginPage_OR.Allow.click();
 			}
 			catch (NoSuchElementException e) {
 			System.out.println("Did not click on skip option");
