@@ -73,14 +73,14 @@ public class desiredCapabilities {
 	public void SetDesiredCapabilities() throws MalformedURLException, InterruptedException {
 
 		if (prop.platformName.equalsIgnoreCase("Android")) {
-			 final File appDir = new File("/Users/Jayabrata/Downloads/Automation/App/");
-			 final File app = new File(appDir, "android-debug_2602.apk");
+			 //final File appDir = new File("/Users/Jayabrata/Downloads/Automation/App/");
+			 //final File app = new File(appDir, "android-debug_2602.apk");
 			final DesiredCapabilities capabilities = new DesiredCapabilities();
 			String ANDROID_DEVICE_SOCKET = "com.owners.agentinteg" + "_devtools_remote";
 			//String ANDROID_DEVICE_SOCKET = "com.owners.agentqa" + "_devtools_remote";
 
 			capabilities.setCapability("deviceName", "Owners A8+");
-			capabilities.setCapability("udid", "192.168.57.101:5555"); // 35870641 //5200d930ec16c45d 
+			capabilities.setCapability("udid", "5200d930ec16c45d"); // 35870641 //5200d930ec16c45d 
 			capabilities.setCapability("platformVersion", "9.0");
 			capabilities.setCapability("platformName", "Android");
 			//capabilities.setCapability("app", app.getAbsolutePath());
