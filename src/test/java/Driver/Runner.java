@@ -18,7 +18,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin = { "com.cucumber.listener.ExtentCucumberFormatter:" }, features = {
 		"/Users/Shared/Jenkins/Home/workspace/SampleMaven/src/test/resources/features/EmailSmsTemplate_TestScenarios.feature" }, tags = { "~@Sanity",
 				"@Regression" },
-//tags= {"@Notes"},
 		monochrome = true)
 public class Runner {
 
