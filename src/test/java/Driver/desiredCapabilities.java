@@ -81,7 +81,7 @@ public class desiredCapabilities {
 
 			capabilities.setCapability("deviceName", "Owners A8+");
 			capabilities.setCapability("udid", "192.168.57.101:5555"); // 35870641 //5200d930ec16c45d 
-			capabilities.setCapability("platformVersion", "8.0");
+			capabilities.setCapability("platformVersion", "9.0");
 			capabilities.setCapability("platformName", "Android");
 			//capabilities.setCapability("app", app.getAbsolutePath());
 			capabilities.setCapability(MobileCapabilityType.AUTO_WEBVIEW, false);
