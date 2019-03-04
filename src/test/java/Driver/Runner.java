@@ -40,13 +40,6 @@ public class Runner {
 }
 
 /*
- * Jenkins /var/lib/jenkins/workspace/cucumberMobileApp/CucumberReports
- * /var/lib/jenkins/workspace/cucumberMobileApp/src/test/resources/features
- * /var/lib/jenkins/workspace/cucumberMobileApp/target/extent-config.xml --
- * doubt
- */
-
-/*
  * local target/cucumber-reports/ target/cucumber-reports/report.html
  * /Users/syedzubair/Desktop/BDD_IOS_workspace/Owners_App_BDD/src/test/resources
  * /features /Users/syedzubair/Desktop/Cucumber Reports
